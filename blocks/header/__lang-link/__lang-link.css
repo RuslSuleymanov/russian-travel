@@ -1,1 +1,9 @@
-.header__lang-link {}
+.header__lang-link {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}

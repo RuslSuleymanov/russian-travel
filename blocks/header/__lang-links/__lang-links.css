@@ -1,1 +1,4 @@
-.header__lang-links {}
+.header__lang-links {
+    cursor: pointer;
+    text-decoration: none;
+}
