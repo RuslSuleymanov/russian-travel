@@ -1,1 +1,13 @@
-.cover__background {}
+.cover__background {
+    position: relative;
+    width: 100%;
+    min-height: 740px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    background-size: cover;
+    background-image: url('../../../images/__nasabakah.jpg');
+}

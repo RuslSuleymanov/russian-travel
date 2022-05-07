@@ -4,4 +4,5 @@
     min-width: 690px;
     display: flex;
     flex-direction: column;
+    align-self: start;
 }
