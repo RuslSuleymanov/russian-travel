@@ -2,7 +2,24 @@
     display: flex;
     justify-content: space-between;
     align-self: center;
-    width: 1184px;
-    margin: 0 auto;
+    width: calc(100% - 48px*2);
+    margin: 0 48px;
     padding: 92px 0 24px;
+}
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        width: calc(100% - 24px*2);
+        padding: 88px 0 24px;
+        margin: 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 64px 0 24px;
+        width: calc(100% - 16px*2);
+        margin: 0 16px;
+        flex-direction: column;
+    }
 }

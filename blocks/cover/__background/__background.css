@@ -1,7 +1,7 @@
 .cover__background {
     position: relative;
     width: 100%;
-    min-height: 740px;
+    height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,4 +10,22 @@
     color: white;
     background-size: cover;
     background-image: url('../../../images/__nasabakah.jpg');
+}
+
+@media screen and (max-width: 1279px) {
+    .cover__background {
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .cover__background {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .cover__background {
+        height: 200px;
+    }
 }
