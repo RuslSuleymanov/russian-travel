@@ -10,4 +10,4 @@
 ### Планы по доработке проекта:
 1. Подключить другие шрифты
 2. Добавить любимые места и пейзажи
-[Ссылка](https://ruslsuleymanov.github.io/russian-travel/)
+### [Ссылка на сайт](https://ruslsuleymanov.github.io/russian-travel/)
