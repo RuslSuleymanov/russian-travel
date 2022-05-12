@@ -1,4 +1,4 @@
-.place__paragraph-list {
+.place__paragraphs {
     width: 484px;
     margin: 0;
     padding: 0;
@@ -6,19 +6,19 @@
 }
 
 @media screen and (max-width: 1279px) {
-    .place__paragraph-list {
+    .place__paragraphs {
         width: 456px;
     }
 }
 
 @media screen and (max-width: 1023px) {
-    .place__paragraph-list {
+    .place__paragraphs {
         width: 352px;
     }
 }
 
 @media screen and (max-width: 767px) {
-    .place__paragraph-list {
+    .place__paragraphs {
         width: 288px;
         margin: 0 16px;
     }

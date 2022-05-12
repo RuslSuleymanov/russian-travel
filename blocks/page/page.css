@@ -1,6 +1,9 @@
 .page {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: #2A2C2F;
-    min-width: 100%;
     margin: 0;
     color: white;
     font-family: 'Inter', Arial, sans-serif;

@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-self: center;
     width: calc(100% - 48px*2);
+    max-width: calc(1280px - 48px*2);
     margin: 0 48px;
     padding: 92px 0 24px;
 }
